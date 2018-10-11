@@ -1,0 +1,23 @@
+server.port: 8080
+
+spring:
+  application: 
+    name: private-s3-bucket-resolver
+  ldap:
+    urls: ldap://<host>:<port>
+    base: DC=com
+    username: CN=<username>,DC=com
+    password: <password>
+    
+    
+
+cloud:
+  aws:
+    credentials:
+      accessKey: <AWS accessKey>
+      secretKey: <AWS secretKey>
+    region: <AWS region>
+    s3:
+      bucket: <bucket name>
+
+  
