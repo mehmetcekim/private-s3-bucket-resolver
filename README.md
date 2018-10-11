@@ -1,1 +1,1 @@
-# private-s3-bucket-resolver
+# private s3 bucket resolver
